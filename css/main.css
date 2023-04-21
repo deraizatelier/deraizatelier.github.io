@@ -179,7 +179,7 @@ main > section {
 }
 
 .sec-title h2:after {
-    border-bottom: 1px solid #009ee3;
+    border-bottom: 1px solid #035317;
     content: "";
     display: block;
     left: 45%;
@@ -737,7 +737,7 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
-    background-color: rgba(15,155,224, 0.78);
+    background-color: #035317;
     padding: 70px 0 40px;
 }
 
@@ -970,7 +970,7 @@ textarea.form-control {
 }
 
 #submit:before {
-  background-color: #0A85BB;
+  background-color: #035317;
 }
 
 #submit.btn-effect:after {
@@ -978,7 +978,7 @@ textarea.form-control {
 }
 
 .contact-details h3 {
-    border-bottom: 1px solid #008ecc;
+    border-bottom: 1px solid #035317;
     font-weight: 700;
     margin-bottom: 15px;
     padding-bottom: 15px;
