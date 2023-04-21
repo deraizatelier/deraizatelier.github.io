@@ -511,16 +511,29 @@
 
 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xoqzywwa" method="post">
   <fieldset id="fs-frm-inputs">
+   
+    <div class="input-field">
     <label for="full-name">Nome</label>
     <input type="text" name="name" id="full-name" placeholder="Diz-nos o teu nome completo." required="">
+    </div>
+   
+    <div class="input-field">
     <label for="email-address">Email</label>
     <input type="email" name="_replyto" id="email-address" placeholder="Qual o email para onde deveremos responder?" required="">
+    </div>
+    
+    <div class="input-field">
     <label for="message">Mensagem</label>
     <textarea rows="5" name="message" id="message" placeholder="O que nos queres dizer?" required=""></textarea>
+    </div>
+    
     <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
   </fieldset>
-  <input type="submit" value="Enviar">
-<!--</form><style>/* reset */
+  <input id="submit" class="btn btn-blue btn-effect" type="submit" value="Enviar">
+</form>
+							
+							
+<!--<style>/* reset */
 #fs-frm input,
 #fs-frm select,
 #fs-frm textarea,
@@ -669,18 +682,7 @@
 			<div class="container">
 				<div class="row text-center">
 					<div class="footer-content">
-						<!-- <div class="wow animated fadeInDown">
-							<p>newsletter signup</p>
-							<p>Get Cool Stuff! We hate spam!</p>
-						</div>
-						<form action="#" method="post" class="subscribe-form wow animated fadeInUp">
-							<div class="input-field">
-								<input type="email" class="subscribe form-control" placeholder="Enter Your Email...">
-								<button type="submit" class="submit-icon">
-									<i class="fa fa-paper-plane fa-lg"></i>
-								</button>
-							</div>
-						</form>
+												
 						<div class="footer-social">
 							<ul>
 								<li class="wow animated zoomIn"><a href="#"><i class="fa fa-thumbs-up fa-3x"></i></a></li>
@@ -689,7 +691,7 @@
 								<li class="wow animated zoomIn" data-wow-delay="0.9s"><a href="#"><i class="fa fa-dribbble fa-3x"></i></a></li>
 								<li class="wow animated zoomIn" data-wow-delay="1.2s"><a href="#"><i class="fa fa-youtube fa-3x"></i></a></li>
 							</ul>
-						</div> -->
+						</div>
 						
 						<p>De'Raíz - Atelier de Jardinagem | Copyright &copy; 2023 </p>
 						<p>Todos os direitos reservados.</p>
