@@ -737,7 +737,7 @@ ul.external li a:hover {
 }
 
 #testimonials .overlay {
-    background-color: #035317;
+    background-color: #30704000;
     padding: 70px 0 40px;
 }
 
@@ -998,6 +998,87 @@ textarea.form-control {
     margin-left: 24px;
 }
 
+/*=================================================================
+	Parcerias
+==================================================================*/
+
+
+#parcerias {
+    background-image: url(../img/parallax/testimonial.jpg);
+    padding: 0;
+    color: #fff;
+}
+
+#parcerias .sec-title h2:after {
+    border-bottom: 1px solid #fff;
+}
+
+#parcerias .overlay {
+    background-color: #30704000;
+    padding: 70px 0 40px;
+}
+
+.parcerias-item {
+    margin: 0 auto;
+    padding-bottom: 50px;
+    width: 64%;
+}
+
+.parcerias-item img {
+    border: 3px solid #fff;
+    border-radius: 50%;
+    display: inline-block;
+    height: auto;
+    max-width: 100px;
+}
+
+.parcerias-item > div {
+    line-height: 30px;
+    position: relative;
+}
+
+.parcerias-item > div:before {
+    background-image: url("../img/icons/quotes.png");
+    background-repeat: no-repeat;
+    bottom: 127px;
+    height: 33px;
+    left: -35px;
+    position: absolute;
+    width: 45px;
+}
+
+.parcerias-item > div:after {
+    background-image: url("../img/icons/quotes.png");
+    background-position: -58px 0;
+    background-repeat: no-repeat;
+    bottom: -50px;
+    height: 33px;
+    position: absolute;
+    right: 0;
+    width: 45px;
+}
+
+.parcerias-item > div > span {
+    display: inline-block;
+    font-weight: 700;
+    margin: 40px 0 30px;
+    text-transform: uppercase;
+}
+
+#parcerias .owl-controls.clickable {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#parcerias .owl-buttons {
+    border: 2px solid #fff;
+    float: inherit;
+}
+
+#parcerias .owl-prev:hover,
+#parcerias .owl-next:hover {
+    color: #fff;
+}
 
 /*============================================================
 	Google Maps
